@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_multiselect"
+        android:icon="@drawable/ic_checkbox_outline_light"
+        android:orderInCategory="100"
+        android:title="Multi Choise"
+        appcompat:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_confirm_multiselect"
+        android:icon="@drawable/ic_checkmark_small_light"
+        android:orderInCategory="101"
+        android:title="OK"
+        appcompat:showAsAction="always"/>
+</menu>
